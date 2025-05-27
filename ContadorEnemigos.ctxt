@@ -1,9 +1,0 @@
-#BlueJ class context
-comment0.target=ContadorEnemigos
-comment1.params=
-comment1.target=ContadorEnemigos()
-comment2.params=
-comment2.target=void\ incrementar()
-comment3.params=
-comment3.target=void\ actualizarImagen()
-numComments=4
