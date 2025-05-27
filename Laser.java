@@ -29,4 +29,5 @@ public class Laser extends Actor {
             }
         }
     }
+
 }

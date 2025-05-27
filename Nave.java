@@ -40,7 +40,10 @@ public class Nave extends Actor {
             shotDelay--;
         } else {
             getWorld().addObject(new Laser(), getX() + 50, getY());
-            shotDelay = 25;
+            GreenfootSound laserSound = new GreenfootSound("laser.mp3");
+            laserSound.setVolume(30);
+            laserSound.play();
+            shotDelay = 60;
         }
     }
     
@@ -55,3 +58,5 @@ public class Nave extends Actor {
         }
     }
 }
+
+
